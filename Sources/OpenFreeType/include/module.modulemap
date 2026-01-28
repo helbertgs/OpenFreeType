@@ -1,0 +1,4 @@
+module FreeType {
+    header "FreeType.h"
+    export *
+}

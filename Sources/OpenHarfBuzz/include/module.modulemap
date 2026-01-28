@@ -1,0 +1,4 @@
+module HarfBuzz {
+    umbrella header "HarfBuzz.h"
+    export *
+}
