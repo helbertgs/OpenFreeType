@@ -242,6 +242,7 @@ let package = Package(
                 // FreeType expects to be built with this define for internal compilation;
                 // otherwise `fterrors.h` undefines `FT_ERR_PREFIX` and the build fails.
                 .define("FT2_BUILD_LIBRARY"),
+                .define("_CRT_SECURE_NO_WARNINGS"),
                 .headerSearchPath("include"),
             ]
         ),
@@ -390,6 +391,7 @@ let package = Package(
             cxxSettings: [
                 .headerSearchPath("."),
                 .define("HAVE_FREETYPE", to: "1"),
+                .define("_CRT_SECURE_NO_WARNINGS")
                 // Uncomment below for CoreText support on Apple platforms
                 // .define("HAVE_CORETEXT", to: "1", .when(platforms: [.macOS, .iOS, .tvOS, .watchOS, .visionOS])),
             ]

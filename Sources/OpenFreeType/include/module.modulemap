@@ -1,4 +1,4 @@
-module FreeType {
+module OpenFreeType [system] {
     header "FreeType.h"
     export *
 }

@@ -1,4 +1,4 @@
-module HarfBuzz {
+module OpenHarfBuzz [system] {
     umbrella header "HarfBuzz.h"
     export *
 }
