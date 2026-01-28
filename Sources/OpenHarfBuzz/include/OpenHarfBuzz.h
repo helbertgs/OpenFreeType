@@ -1,6 +1,6 @@
-// HarfBuzz umbrella header
-#ifndef HARFBUZZ_H
-#define HARFBUZZ_H
+// OpenHarfBuzz umbrella header
+#ifndef OPENHARFBUZZ_H
+#define OPENHARFBUZZ_H
 
 #include "hb.h"
 #include "hb-ot.h"
@@ -9,4 +9,4 @@
 #include "hb-ft.h"      // FreeType integration
 // #include "hb-coretext.h" // CoreText integration (macOS/iOS)
 
-#endif /* HARFBUZZ_H */
+#endif /* OPENHARFBUZZ_H */

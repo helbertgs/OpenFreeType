@@ -338,7 +338,7 @@ HB_EXTERN hb_bool_t
 hb_language_matches (hb_language_t language,
 		     hb_language_t specific);
 
-#include "hb-script-list.h"
+#include "../hb-script-list.h"
 
 /* Script functions */
 
